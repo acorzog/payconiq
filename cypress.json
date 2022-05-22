@@ -4,7 +4,7 @@
   "viewportHeight": 1200,
   "trashAssetsBeforeRuns": true,
   "video": true,
-  "chromeWebSecurity": true,
+  "chromeWebSecurity": false,
   "defaultCommandTimeout": 50000,
   "pageLoadTimeout": 100000,
   "waitForAnimations": true,
