@@ -1,0 +1,7 @@
+node_modules
+.prettierrc
+videos
+.DS_Store
+reports
+results
+screenshots
