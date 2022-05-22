@@ -34,17 +34,17 @@ Node.js 12 or 14 and above
 ## How to run
 
 To run tests with the open UI
-  Run
+  - Run
     ```
     npm run cy:open
     ```
 To run tests headless
-  Run
+  - Run
     ```
     npm run test
     ```  
 To run tests report
-  Run
+  - Run
     ```
     npm run testReport
     ```  
