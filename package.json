@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "testChrome": "cypress run --browser chrome",
     "testFirefox": "cypress run --browser firefox",
     "testEdge": "cypress run --browser edge",
