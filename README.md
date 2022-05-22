@@ -41,7 +41,7 @@ To run tests with the open UI
 To run tests headless
   - Run
     ```
-    npm run test
+    npm run cy:run
     ```  
 To run tests report
   - Run
