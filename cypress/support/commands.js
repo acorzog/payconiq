@@ -14,7 +14,10 @@ import { loginSelectors } from '../selectors/testPage'
 //
 
 Cypress.Commands.add('login', (username, password) => {
-  cy.visit('https://www.saucedemo.com')
+  cy.visit('/')
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+  })
   cy.get(loginSelectors.username).type(username)
   cy.get(loginSelectors.password).type(password)
   cy.get(loginSelectors.loginBtn).click()

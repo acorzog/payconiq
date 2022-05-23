@@ -21,6 +21,8 @@
   "author": "Andrea Corzo",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
+    "browserslist": "^4.20.3",
     "cypress": "^9.6.1",
     "cypress-promise": "^1.1.0",
     "pretier": "0.0.1",

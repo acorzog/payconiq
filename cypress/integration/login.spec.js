@@ -7,7 +7,10 @@ import {
 context('Login with different users', () => {
   describe('login with standard user', () => {
     before(() => {
-      cy.visit('https://www.saucedemo.com');
+      cy.visit('/');
+      Cypress.on('uncaught:exception', (err, runnable) => {
+        return false
+      })
     });
 
     it('Validate Login UI is visible', () => {
